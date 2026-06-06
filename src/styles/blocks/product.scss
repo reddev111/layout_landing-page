@@ -1,0 +1,20 @@
+﻿.product {
+  &__photo-link {
+    display: block;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+
+  &__photo {
+    display: block;
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+
+    transition: transform $effectDuration;
+
+    &:hover {
+      transform: scale(1.1);
+    }
+  }
+}
