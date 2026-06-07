@@ -3,6 +3,10 @@
   background-size: cover;
   background-position: center;
 
+  @include on-desktop {
+    background-image: url(../images/Imagex2.png);
+  }
+
   &__content {
     height: 100vh;
 

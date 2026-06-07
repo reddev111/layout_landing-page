@@ -56,6 +56,32 @@
     &:hover {
       transform: scale(1.1);
     }
+
+    @include on-desktop {
+      &[src$='categorys-all-1.png'] {
+        content: url(../images/categorys-all-1x2.png);
+      }
+
+      &[src$='categorys-all-2.png'] {
+        content: url(../images/categorys-all-2x2.png);
+      }
+
+      &[src$='categorys-audio-1.png'] {
+        content: url(../images/categorys-audio-1x2.png);
+      }
+
+      &[src$='categorys-audio-2.png'] {
+        content: url(../images/categorys-audio-2x2.png);
+      }
+
+      &[src$='categorys-acc-1.png'] {
+        content: url(../images/categorys-acc-1x2.png);
+      }
+
+      &[src$='categorys-acc-2.png'] {
+        content: url(../images/categorys-acc-2x2.png);
+      }
+    }
   }
 
   &__title {
